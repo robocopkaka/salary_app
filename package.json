@@ -1,0 +1,22 @@
+{
+  "name": "salary_app",
+  "version": "1.0.0",
+  "description": "new",
+  "main": "managerPay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robocopkaka/salary_app.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "group 5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robocopkaka/salary_app/issues"
+  },
+  "homepage": "https://github.com/robocopkaka/salary_app#readme"
+}
