@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+    <head>
+    
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <title>Andela Bootcamp- Salary Calculator</title>
+        
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        
+    </head>
+    
+    <body>
+        
+        <section id="page"> 
+    
+            <header> 
+            
+                <hgroup>
+                    <h1>Andela</h1>
+                    <h3>Salary Calculator</h3>
+                </hgroup>
+                                
+                <nav class="clear"> 
+                    <ul>
+                     <li id = "user_name_display"><h3>User Name</h3></li>
+                     <li><a href="">Logout</a></li>
+                    </ul>
+                </nav>
+            
+            </header>
+            
+            <section id="articles"> 
+
+                <div class="line"></div>  
+                
+                <article id="article1"> 
+                    <h2>Salary Calculator</h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    
+                        
+                        <figure> 
+                            <!-- <img src="img/salary.jpg" alt="stephen Oduntan" height="244" width="620">  -->
+                            <h2>Employee Salary Details</h2>
+                            <div class="line"></div>
+                            <p>Employee's Level: </p> <p id ="employee_level"></p>
+                            <p>Employee's Year of Experience : </p> <p id ="employee_year"></p>
+                            <p>Employee's Salary: </p><p id ="employee_year"></p>
+
+
+                        </figure>
+                        
+                        <p>
+                            <form>
+                                <h3> Basic Information</h3>
+                                <br>
+                                <label> Employee Levels </label>
+                                <select id = "level" name = "level">
+                                <option value = "intern">Intern</option>
+                                <option value = "associate">Associate</option>
+                                <option value = "manager">Manager</option>
+                                <option value = "executive">Execitive</option>
+                                <option value = "director">Director</option>
+                                </select>
+                                <br>
+
+                                <label> Employee Year's of Exeperience </label>
+                                <select id = "experience" name = "experience">
+                                <option value = "1">1</option>
+                                <option value = "2">2</option>
+                                <option value = "3">3</option>
+                                <option value = "4">4</option>
+                                <option value = "5">5</option>
+                                </select>
+                                <br>
+                                <button type = "Calculate" id="submit" >Calculate Salary</button>
+                            </form>
+                        </p>
+                    </div>
+                </article>
+            </section>
+
+        <footer> 
+
+           <div class="line"></div>
+           
+           <p>Copyright 2016 - Andela Bootcamp - Salary Calculator</p> <
+        </footer>
+            
+        </section> 
+    </body>
+</html>
